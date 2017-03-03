@@ -1,0 +1,401 @@
+{
+  'version': 0,
+  'case-sensitive': 'false',
+  'roots': [
+    {
+      'type': 'directory',
+      'name': "/Users/doki/Desktop/code11/GTMAppAuthSwift/Build/Products/Debug-iphoneos/AppAuth/AppAuth.framework/Headers",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "AppAuth-Swift.h",
+          'external-contents': "/Users/doki/Desktop/code11/GTMAppAuthSwift/Build/Products/Debug-iphoneos/AppAuth/AppAuth.framework/Headers/AppAuth-Swift.h"
+        },
+        {
+          'type': 'file',
+          'name': "AppAuth-umbrella.h",
+          'external-contents': "/Users/doki/Desktop/code11/GTMAppAuthSwift/Pods/Target Support Files/AppAuth/AppAuth-umbrella.h"
+        },
+        {
+          'type': 'file',
+          'name': "AppAuth.h",
+          'external-contents': "/Users/doki/Desktop/code11/GTMAppAuthSwift/Pods/AppAuth/Source/AppAuth.h"
+        },
+        {
+          'type': 'file',
+          'name': "OIDAuthState+IOS.h",
+          'external-contents': "/Users/doki/Desktop/code11/GTMAppAuthSwift/Pods/AppAuth/Source/iOS/OIDAuthState+IOS.h"
+        },
+        {
+          'type': 'file',
+          'name': "OIDAuthState.h",
+          'external-contents': "/Users/doki/Desktop/code11/GTMAppAuthSwift/Pods/AppAuth/Source/OIDAuthState.h"
+        },
+        {
+          'type': 'file',
+          'name': "OIDAuthStateChangeDelegate.h",
+          'external-contents': "/Users/doki/Desktop/code11/GTMAppAuthSwift/Pods/AppAuth/Source/OIDAuthStateChangeDelegate.h"
+        },
+        {
+          'type': 'file',
+          'name': "OIDAuthStateErrorDelegate.h",
+          'external-contents': "/Users/doki/Desktop/code11/GTMAppAuthSwift/Pods/AppAuth/Source/OIDAuthStateErrorDelegate.h"
+        },
+        {
+          'type': 'file',
+          'name': "OIDAuthorizationRequest.h",
+          'external-contents': "/Users/doki/Desktop/code11/GTMAppAuthSwift/Pods/AppAuth/Source/OIDAuthorizationRequest.h"
+        },
+        {
+          'type': 'file',
+          'name': "OIDAuthorizationResponse.h",
+          'external-contents': "/Users/doki/Desktop/code11/GTMAppAuthSwift/Pods/AppAuth/Source/OIDAuthorizationResponse.h"
+        },
+        {
+          'type': 'file',
+          'name': "OIDAuthorizationService+IOS.h",
+          'external-contents': "/Users/doki/Desktop/code11/GTMAppAuthSwift/Pods/AppAuth/Source/iOS/OIDAuthorizationService+IOS.h"
+        },
+        {
+          'type': 'file',
+          'name': "OIDAuthorizationService.h",
+          'external-contents': "/Users/doki/Desktop/code11/GTMAppAuthSwift/Pods/AppAuth/Source/OIDAuthorizationService.h"
+        },
+        {
+          'type': 'file',
+          'name': "OIDAuthorizationUICoordinator.h",
+          'external-contents': "/Users/doki/Desktop/code11/GTMAppAuthSwift/Pods/AppAuth/Source/OIDAuthorizationUICoordinator.h"
+        },
+        {
+          'type': 'file',
+          'name': "OIDAuthorizationUICoordinatorIOS.h",
+          'external-contents': "/Users/doki/Desktop/code11/GTMAppAuthSwift/Pods/AppAuth/Source/iOS/OIDAuthorizationUICoordinatorIOS.h"
+        },
+        {
+          'type': 'file',
+          'name': "OIDDefines.h",
+          'external-contents': "/Users/doki/Desktop/code11/GTMAppAuthSwift/Pods/AppAuth/Source/OIDDefines.h"
+        },
+        {
+          'type': 'file',
+          'name': "OIDError.h",
+          'external-contents': "/Users/doki/Desktop/code11/GTMAppAuthSwift/Pods/AppAuth/Source/OIDError.h"
+        },
+        {
+          'type': 'file',
+          'name': "OIDErrorUtilities.h",
+          'external-contents': "/Users/doki/Desktop/code11/GTMAppAuthSwift/Pods/AppAuth/Source/OIDErrorUtilities.h"
+        },
+        {
+          'type': 'file',
+          'name': "OIDFieldMapping.h",
+          'external-contents': "/Users/doki/Desktop/code11/GTMAppAuthSwift/Pods/AppAuth/Source/OIDFieldMapping.h"
+        },
+        {
+          'type': 'file',
+          'name': "OIDGrantTypes.h",
+          'external-contents': "/Users/doki/Desktop/code11/GTMAppAuthSwift/Pods/AppAuth/Source/OIDGrantTypes.h"
+        },
+        {
+          'type': 'file',
+          'name': "OIDResponseTypes.h",
+          'external-contents': "/Users/doki/Desktop/code11/GTMAppAuthSwift/Pods/AppAuth/Source/OIDResponseTypes.h"
+        },
+        {
+          'type': 'file',
+          'name': "OIDScopeUtilities.h",
+          'external-contents': "/Users/doki/Desktop/code11/GTMAppAuthSwift/Pods/AppAuth/Source/OIDScopeUtilities.h"
+        },
+        {
+          'type': 'file',
+          'name': "OIDScopes.h",
+          'external-contents': "/Users/doki/Desktop/code11/GTMAppAuthSwift/Pods/AppAuth/Source/OIDScopes.h"
+        },
+        {
+          'type': 'file',
+          'name': "OIDServiceConfiguration.h",
+          'external-contents': "/Users/doki/Desktop/code11/GTMAppAuthSwift/Pods/AppAuth/Source/OIDServiceConfiguration.h"
+        },
+        {
+          'type': 'file',
+          'name': "OIDServiceDiscovery.h",
+          'external-contents': "/Users/doki/Desktop/code11/GTMAppAuthSwift/Pods/AppAuth/Source/OIDServiceDiscovery.h"
+        },
+        {
+          'type': 'file',
+          'name': "OIDTokenRequest.h",
+          'external-contents': "/Users/doki/Desktop/code11/GTMAppAuthSwift/Pods/AppAuth/Source/OIDTokenRequest.h"
+        },
+        {
+          'type': 'file',
+          'name': "OIDTokenResponse.h",
+          'external-contents': "/Users/doki/Desktop/code11/GTMAppAuthSwift/Pods/AppAuth/Source/OIDTokenResponse.h"
+        },
+        {
+          'type': 'file',
+          'name': "OIDTokenUtilities.h",
+          'external-contents': "/Users/doki/Desktop/code11/GTMAppAuthSwift/Pods/AppAuth/Source/OIDTokenUtilities.h"
+        },
+        {
+          'type': 'file',
+          'name': "OIDURLQueryComponent.h",
+          'external-contents': "/Users/doki/Desktop/code11/GTMAppAuthSwift/Pods/AppAuth/Source/OIDURLQueryComponent.h"
+        }
+      ]
+    },
+    {
+      'type': 'directory',
+      'name': "/Users/doki/Desktop/code11/GTMAppAuthSwift/Build/Products/Debug-iphoneos/AppAuth/AppAuth.framework/Modules",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "module.modulemap",
+          'external-contents': "/Users/doki/Desktop/code11/GTMAppAuthSwift/Build/Intermediates/Pods.build/Debug-iphoneos/AppAuth.build/module.modulemap"
+        }
+      ]
+    },
+    {
+      'type': 'directory',
+      'name': "/Users/doki/Desktop/code11/GTMAppAuthSwift/Build/Products/Debug-iphoneos/GTMAppAuth/GTMAppAuth.framework/Headers",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "GTMAppAuth-Swift.h",
+          'external-contents': "/Users/doki/Desktop/code11/GTMAppAuthSwift/Build/Products/Debug-iphoneos/GTMAppAuth/GTMAppAuth.framework/Headers/GTMAppAuth-Swift.h"
+        },
+        {
+          'type': 'file',
+          'name': "GTMAppAuth-umbrella.h",
+          'external-contents': "/Users/doki/Desktop/code11/GTMAppAuthSwift/Pods/Target Support Files/GTMAppAuth/GTMAppAuth-umbrella.h"
+        },
+        {
+          'type': 'file',
+          'name': "GTMAppAuth.h",
+          'external-contents': "/Users/doki/Desktop/code11/GTMAppAuthSwift/Pods/GTMAppAuth/Source/GTMAppAuth.h"
+        },
+        {
+          'type': 'file',
+          'name': "GTMAppAuthFetcherAuthorization+Keychain.h",
+          'external-contents': "/Users/doki/Desktop/code11/GTMAppAuthSwift/Pods/GTMAppAuth/Source/GTMAppAuthFetcherAuthorization+Keychain.h"
+        },
+        {
+          'type': 'file',
+          'name': "GTMAppAuthFetcherAuthorization.h",
+          'external-contents': "/Users/doki/Desktop/code11/GTMAppAuthSwift/Pods/GTMAppAuth/Source/GTMAppAuthFetcherAuthorization.h"
+        },
+        {
+          'type': 'file',
+          'name': "GTMKeychain.h",
+          'external-contents': "/Users/doki/Desktop/code11/GTMAppAuthSwift/Pods/GTMAppAuth/Source/GTMKeychain.h"
+        },
+        {
+          'type': 'file',
+          'name': "GTMOAuth2KeychainCompatibility.h",
+          'external-contents': "/Users/doki/Desktop/code11/GTMAppAuthSwift/Pods/GTMAppAuth/Source/GTMOAuth2KeychainCompatibility/GTMOAuth2KeychainCompatibility.h"
+        }
+      ]
+    },
+    {
+      'type': 'directory',
+      'name': "/Users/doki/Desktop/code11/GTMAppAuthSwift/Build/Products/Debug-iphoneos/GTMAppAuth/GTMAppAuth.framework/Modules",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "module.modulemap",
+          'external-contents': "/Users/doki/Desktop/code11/GTMAppAuthSwift/Build/Intermediates/Pods.build/Debug-iphoneos/GTMAppAuth.build/module.modulemap"
+        }
+      ]
+    },
+    {
+      'type': 'directory',
+      'name': "/Users/doki/Desktop/code11/GTMAppAuthSwift/Build/Products/Debug-iphoneos/GTMSessionFetcher/GTMSessionFetcher.framework/Headers",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "GTMGatherInputStream.h",
+          'external-contents': "/Users/doki/Desktop/code11/GTMAppAuthSwift/Pods/GTMSessionFetcher/Source/GTMGatherInputStream.h"
+        },
+        {
+          'type': 'file',
+          'name': "GTMMIMEDocument.h",
+          'external-contents': "/Users/doki/Desktop/code11/GTMAppAuthSwift/Pods/GTMSessionFetcher/Source/GTMMIMEDocument.h"
+        },
+        {
+          'type': 'file',
+          'name': "GTMReadMonitorInputStream.h",
+          'external-contents': "/Users/doki/Desktop/code11/GTMAppAuthSwift/Pods/GTMSessionFetcher/Source/GTMReadMonitorInputStream.h"
+        },
+        {
+          'type': 'file',
+          'name': "GTMSessionFetcher-Swift.h",
+          'external-contents': "/Users/doki/Desktop/code11/GTMAppAuthSwift/Build/Products/Debug-iphoneos/GTMSessionFetcher/GTMSessionFetcher.framework/Headers/GTMSessionFetcher-Swift.h"
+        },
+        {
+          'type': 'file',
+          'name': "GTMSessionFetcher-umbrella.h",
+          'external-contents': "/Users/doki/Desktop/code11/GTMAppAuthSwift/Pods/Target Support Files/GTMSessionFetcher/GTMSessionFetcher-umbrella.h"
+        },
+        {
+          'type': 'file',
+          'name': "GTMSessionFetcher.h",
+          'external-contents': "/Users/doki/Desktop/code11/GTMAppAuthSwift/Pods/GTMSessionFetcher/Source/GTMSessionFetcher.h"
+        },
+        {
+          'type': 'file',
+          'name': "GTMSessionFetcherLogging.h",
+          'external-contents': "/Users/doki/Desktop/code11/GTMAppAuthSwift/Pods/GTMSessionFetcher/Source/GTMSessionFetcherLogging.h"
+        },
+        {
+          'type': 'file',
+          'name': "GTMSessionFetcherService.h",
+          'external-contents': "/Users/doki/Desktop/code11/GTMAppAuthSwift/Pods/GTMSessionFetcher/Source/GTMSessionFetcherService.h"
+        },
+        {
+          'type': 'file',
+          'name': "GTMSessionUploadFetcher.h",
+          'external-contents': "/Users/doki/Desktop/code11/GTMAppAuthSwift/Pods/GTMSessionFetcher/Source/GTMSessionUploadFetcher.h"
+        }
+      ]
+    },
+    {
+      'type': 'directory',
+      'name': "/Users/doki/Desktop/code11/GTMAppAuthSwift/Build/Products/Debug-iphoneos/GTMSessionFetcher/GTMSessionFetcher.framework/Modules",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "module.modulemap",
+          'external-contents': "/Users/doki/Desktop/code11/GTMAppAuthSwift/Build/Intermediates/Pods.build/Debug-iphoneos/GTMSessionFetcher.build/module.modulemap"
+        }
+      ]
+    },
+    {
+      'type': 'directory',
+      'name': "/Users/doki/Desktop/code11/GTMAppAuthSwift/Build/Products/Debug-iphoneos/GoogleAPIClient/GoogleAPIClient.framework/Headers",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "GTLBase64.h",
+          'external-contents': "/Users/doki/Desktop/code11/GTMAppAuthSwift/Pods/GoogleAPIClient/Source/Utilities/GTLBase64.h"
+        },
+        {
+          'type': 'file',
+          'name': "GTLBatchQuery.h",
+          'external-contents': "/Users/doki/Desktop/code11/GTMAppAuthSwift/Pods/GoogleAPIClient/Source/Objects/GTLBatchQuery.h"
+        },
+        {
+          'type': 'file',
+          'name': "GTLBatchResult.h",
+          'external-contents': "/Users/doki/Desktop/code11/GTMAppAuthSwift/Pods/GoogleAPIClient/Source/Objects/GTLBatchResult.h"
+        },
+        {
+          'type': 'file',
+          'name': "GTLDateTime.h",
+          'external-contents': "/Users/doki/Desktop/code11/GTMAppAuthSwift/Pods/GoogleAPIClient/Source/Objects/GTLDateTime.h"
+        },
+        {
+          'type': 'file',
+          'name': "GTLDefines.h",
+          'external-contents': "/Users/doki/Desktop/code11/GTMAppAuthSwift/Pods/GoogleAPIClient/Source/GTLDefines.h"
+        },
+        {
+          'type': 'file',
+          'name': "GTLErrorObject.h",
+          'external-contents': "/Users/doki/Desktop/code11/GTMAppAuthSwift/Pods/GoogleAPIClient/Source/Objects/GTLErrorObject.h"
+        },
+        {
+          'type': 'file',
+          'name': "GTLFramework.h",
+          'external-contents': "/Users/doki/Desktop/code11/GTMAppAuthSwift/Pods/GoogleAPIClient/Source/Utilities/GTLFramework.h"
+        },
+        {
+          'type': 'file',
+          'name': "GTLJSONParser.h",
+          'external-contents': "/Users/doki/Desktop/code11/GTMAppAuthSwift/Pods/GoogleAPIClient/Source/Utilities/GTLJSONParser.h"
+        },
+        {
+          'type': 'file',
+          'name': "GTLObject.h",
+          'external-contents': "/Users/doki/Desktop/code11/GTMAppAuthSwift/Pods/GoogleAPIClient/Source/Objects/GTLObject.h"
+        },
+        {
+          'type': 'file',
+          'name': "GTLQuery.h",
+          'external-contents': "/Users/doki/Desktop/code11/GTMAppAuthSwift/Pods/GoogleAPIClient/Source/Objects/GTLQuery.h"
+        },
+        {
+          'type': 'file',
+          'name': "GTLRuntimeCommon.h",
+          'external-contents': "/Users/doki/Desktop/code11/GTMAppAuthSwift/Pods/GoogleAPIClient/Source/Objects/GTLRuntimeCommon.h"
+        },
+        {
+          'type': 'file',
+          'name': "GTLService.h",
+          'external-contents': "/Users/doki/Desktop/code11/GTMAppAuthSwift/Pods/GoogleAPIClient/Source/Objects/GTLService.h"
+        },
+        {
+          'type': 'file',
+          'name': "GTLTargetNamespace.h",
+          'external-contents': "/Users/doki/Desktop/code11/GTMAppAuthSwift/Pods/GoogleAPIClient/Source/Utilities/GTLTargetNamespace.h"
+        },
+        {
+          'type': 'file',
+          'name': "GTLUploadParameters.h",
+          'external-contents': "/Users/doki/Desktop/code11/GTMAppAuthSwift/Pods/GoogleAPIClient/Source/Objects/GTLUploadParameters.h"
+        },
+        {
+          'type': 'file',
+          'name': "GTLUtilities.h",
+          'external-contents': "/Users/doki/Desktop/code11/GTMAppAuthSwift/Pods/GoogleAPIClient/Source/Utilities/GTLUtilities.h"
+        },
+        {
+          'type': 'file',
+          'name': "GoogleAPIClient-Swift.h",
+          'external-contents': "/Users/doki/Desktop/code11/GTMAppAuthSwift/Build/Products/Debug-iphoneos/GoogleAPIClient/GoogleAPIClient.framework/Headers/GoogleAPIClient-Swift.h"
+        },
+        {
+          'type': 'file',
+          'name': "GoogleAPIClient-umbrella.h",
+          'external-contents': "/Users/doki/Desktop/code11/GTMAppAuthSwift/Pods/Target Support Files/GoogleAPIClient/GoogleAPIClient-umbrella.h"
+        }
+      ]
+    },
+    {
+      'type': 'directory',
+      'name': "/Users/doki/Desktop/code11/GTMAppAuthSwift/Build/Products/Debug-iphoneos/GoogleAPIClient/GoogleAPIClient.framework/Modules",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "module.modulemap",
+          'external-contents': "/Users/doki/Desktop/code11/GTMAppAuthSwift/Build/Intermediates/Pods.build/Debug-iphoneos/GoogleAPIClient.build/module.modulemap"
+        }
+      ]
+    },
+    {
+      'type': 'directory',
+      'name': "/Users/doki/Desktop/code11/GTMAppAuthSwift/Build/Products/Debug-iphoneos/Pods_GTMAppAuthSwift.framework/Headers",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "Pods-GTMAppAuthSwift-umbrella.h",
+          'external-contents': "/Users/doki/Desktop/code11/GTMAppAuthSwift/Pods/Target Support Files/Pods-GTMAppAuthSwift/Pods-GTMAppAuthSwift-umbrella.h"
+        },
+        {
+          'type': 'file',
+          'name': "Pods_GTMAppAuthSwift-Swift.h",
+          'external-contents': "/Users/doki/Desktop/code11/GTMAppAuthSwift/Build/Products/Debug-iphoneos/Pods_GTMAppAuthSwift.framework/Headers/Pods_GTMAppAuthSwift-Swift.h"
+        }
+      ]
+    },
+    {
+      'type': 'directory',
+      'name': "/Users/doki/Desktop/code11/GTMAppAuthSwift/Build/Products/Debug-iphoneos/Pods_GTMAppAuthSwift.framework/Modules",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "module.modulemap",
+          'external-contents': "/Users/doki/Desktop/code11/GTMAppAuthSwift/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-GTMAppAuthSwift.build/module.modulemap"
+        }
+      ]
+    }
+  ]
+}

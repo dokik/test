@@ -1,0 +1,926 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "ViewController"
+provides-nominal:
+- "C15GTMAppAuthSwift14ViewController"
+provides-member:
+- ["C15GTMAppAuthSwift14ViewController", ""]
+provides-dynamic-lookup:
+- "setGtmAuthorization"
+- "stateChanged"
+- "viewDidLoad"
+- "authOID"
+- "didReceiveMemoryWarning"
+- "authorization"
+- "saveState"
+- "loadState"
+depends-top-level:
+- !private "URL"
+- !private "OIDAuthState"
+- !private "OIDResponseTypeCode"
+- !private "=="
+- "AssignmentPrecedence"
+- !private "UIApplication"
+- !private "CastingPrecedence"
+- !private "AppDelegate"
+- "GTMAppAuthFetcherAuthorization"
+- !private "OIDAuthorizationService"
+- "StringLiteralType"
+- "GTLService"
+- "ViewController"
+- !private "print"
+- "UIViewController"
+- !private "OIDAuthorizationRequest"
+- !private "!="
+- "Array"
+depends-member:
+- ["Ps9AnyObject", "GTLService"]
+- !private ["Ps9AnyObject", "GTMAppAuthFetcherAuthorization"]
+- !private ["Ps9AnyObject", "OIDAuthState"]
+- !private ["Ps9AnyObject", "OIDAuthorizationRequest"]
+- !private ["Ps9AnyObject", "OIDAuthorizationService"]
+- !private ["Ps9AnyObject", "OIDResponseTypeCode"]
+- !private ["Ps9AnyObject", "UIApplication"]
+- !private ["Ps9AnyObject", "URL"]
+- !private ["Ps9AnyObject", "accessToken"]
+- ["Ps9AnyObject", "authOID"]
+- !private ["Ps9AnyObject", "authState"]
+- ["Ps9AnyObject", "authorization"]
+- !private ["Ps9AnyObject", "authorizer"]
+- !private ["Ps9AnyObject", "canAuthorize"]
+- !private ["Ps9AnyObject", "currentAuthorizationFlow"]
+- !private ["Ps9AnyObject", "delegate"]
+- ["Ps9AnyObject", "didReceiveMemoryWarning"]
+- !private ["Ps9AnyObject", "discoverConfiguration"]
+- ["Ps9AnyObject", "init"]
+- ["Ps9AnyObject", "kClientID"]
+- ["Ps9AnyObject", "kIssuer"]
+- ["Ps9AnyObject", "kRedirectURI"]
+- !private ["Ps9AnyObject", "lastTokenResponse"]
+- ["Ps9AnyObject", "loadState"]
+- !private ["Ps9AnyObject", "print"]
+- !private ["Ps9AnyObject", "removeFromKeychain"]
+- !private ["Ps9AnyObject", "save"]
+- ["Ps9AnyObject", "saveState"]
+- !private ["Ps9AnyObject", "scope"]
+- ["Ps9AnyObject", "scopes"]
+- ["Ps9AnyObject", "service"]
+- ["Ps9AnyObject", "setGtmAuthorization"]
+- !private ["Ps9AnyObject", "shared"]
+- ["Ps9AnyObject", "stateChanged"]
+- ["Ps9AnyObject", "viewDidLoad"]
+- ["Ps9AnyObject", ""]
+- !private ["C15GTMAppAuthSwift11AppDelegate", "currentAuthorizationFlow"]
+- !private ["C15GTMAppAuthSwift11AppDelegate", "deinit"]
+- ["Sa", "Element"]
+- ["Sa", "deinit"]
+- ["Ps23BidirectionalCollection", "Element"]
+- ["Ps22BidirectionalIndexable", "Element"]
+- !private ["Sb", "_getBuiltinLogicValue"]
+- ["Sb", "deinit"]
+- ["Ps7CVarArg", "Element"]
+- ["Ps7CVarArg", "GTLService"]
+- !private ["Ps7CVarArg", "GTMAppAuthFetcherAuthorization"]
+- !private ["Ps7CVarArg", "OIDAuthState"]
+- !private ["Ps7CVarArg", "OIDAuthorizationRequest"]
+- !private ["Ps7CVarArg", "OIDAuthorizationService"]
+- !private ["Ps7CVarArg", "OIDResponseTypeCode"]
+- !private ["Ps7CVarArg", "UIApplication"]
+- !private ["Ps7CVarArg", "URL"]
+- !private ["Ps7CVarArg", "accessToken"]
+- ["Ps7CVarArg", "authOID"]
+- !private ["Ps7CVarArg", "authState"]
+- ["Ps7CVarArg", "authorization"]
+- !private ["Ps7CVarArg", "authorizer"]
+- !private ["Ps7CVarArg", "canAuthorize"]
+- !private ["Ps7CVarArg", "currentAuthorizationFlow"]
+- !private ["Ps7CVarArg", "delegate"]
+- ["Ps7CVarArg", "didReceiveMemoryWarning"]
+- !private ["Ps7CVarArg", "discoverConfiguration"]
+- ["Ps7CVarArg", "init"]
+- ["Ps7CVarArg", "kClientID"]
+- ["Ps7CVarArg", "kIssuer"]
+- ["Ps7CVarArg", "kRedirectURI"]
+- !private ["Ps7CVarArg", "lastTokenResponse"]
+- ["Ps7CVarArg", "loadState"]
+- !private ["Ps7CVarArg", "print"]
+- !private ["Ps7CVarArg", "removeFromKeychain"]
+- !private ["Ps7CVarArg", "save"]
+- ["Ps7CVarArg", "saveState"]
+- !private ["Ps7CVarArg", "scope"]
+- ["Ps7CVarArg", "scopes"]
+- ["Ps7CVarArg", "service"]
+- ["Ps7CVarArg", "setGtmAuthorization"]
+- !private ["Ps7CVarArg", "shared"]
+- ["Ps7CVarArg", "stateChanged"]
+- ["Ps7CVarArg", "viewDidLoad"]
+- ["Ps7CVarArg", ""]
+- !private ["Vs9Character", "deinit"]
+- ["Ps10Collection", "Element"]
+- ["Ps10Comparable", "init"]
+- ["Ps28CustomDebugStringConvertible", "Element"]
+- ["Ps28CustomDebugStringConvertible", "GTLService"]
+- !private ["Ps28CustomDebugStringConvertible", "GTMAppAuthFetcherAuthorization"]
+- !private ["Ps28CustomDebugStringConvertible", "OIDAuthState"]
+- !private ["Ps28CustomDebugStringConvertible", "OIDAuthorizationRequest"]
+- !private ["Ps28CustomDebugStringConvertible", "OIDAuthorizationService"]
+- !private ["Ps28CustomDebugStringConvertible", "OIDResponseTypeCode"]
+- !private ["Ps28CustomDebugStringConvertible", "UIApplication"]
+- !private ["Ps28CustomDebugStringConvertible", "URL"]
+- !private ["Ps28CustomDebugStringConvertible", "accessToken"]
+- ["Ps28CustomDebugStringConvertible", "authOID"]
+- !private ["Ps28CustomDebugStringConvertible", "authState"]
+- ["Ps28CustomDebugStringConvertible", "authorization"]
+- !private ["Ps28CustomDebugStringConvertible", "authorizer"]
+- !private ["Ps28CustomDebugStringConvertible", "canAuthorize"]
+- !private ["Ps28CustomDebugStringConvertible", "currentAuthorizationFlow"]
+- !private ["Ps28CustomDebugStringConvertible", "delegate"]
+- ["Ps28CustomDebugStringConvertible", "didReceiveMemoryWarning"]
+- !private ["Ps28CustomDebugStringConvertible", "discoverConfiguration"]
+- ["Ps28CustomDebugStringConvertible", "init"]
+- ["Ps28CustomDebugStringConvertible", "kClientID"]
+- ["Ps28CustomDebugStringConvertible", "kIssuer"]
+- ["Ps28CustomDebugStringConvertible", "kRedirectURI"]
+- !private ["Ps28CustomDebugStringConvertible", "lastTokenResponse"]
+- ["Ps28CustomDebugStringConvertible", "loadState"]
+- !private ["Ps28CustomDebugStringConvertible", "print"]
+- !private ["Ps28CustomDebugStringConvertible", "removeFromKeychain"]
+- !private ["Ps28CustomDebugStringConvertible", "save"]
+- ["Ps28CustomDebugStringConvertible", "saveState"]
+- !private ["Ps28CustomDebugStringConvertible", "scope"]
+- ["Ps28CustomDebugStringConvertible", "scopes"]
+- ["Ps28CustomDebugStringConvertible", "service"]
+- ["Ps28CustomDebugStringConvertible", "setGtmAuthorization"]
+- !private ["Ps28CustomDebugStringConvertible", "shared"]
+- ["Ps28CustomDebugStringConvertible", "stateChanged"]
+- ["Ps28CustomDebugStringConvertible", "viewDidLoad"]
+- ["Ps28CustomDebugStringConvertible", ""]
+- !private ["Ps29CustomPlaygroundQuickLookable", "_getBuiltinLogicValue"]
+- ["Ps29CustomPlaygroundQuickLookable", "init"]
+- ["Ps17CustomReflectable", "Element"]
+- !private ["Ps17CustomReflectable", "_getBuiltinLogicValue"]
+- ["Ps17CustomReflectable", "init"]
+- ["Ps23CustomStringConvertible", "Element"]
+- ["Ps23CustomStringConvertible", "GTLService"]
+- !private ["Ps23CustomStringConvertible", "GTMAppAuthFetcherAuthorization"]
+- !private ["Ps23CustomStringConvertible", "OIDAuthState"]
+- !private ["Ps23CustomStringConvertible", "OIDAuthorizationRequest"]
+- !private ["Ps23CustomStringConvertible", "OIDAuthorizationService"]
+- !private ["Ps23CustomStringConvertible", "OIDResponseTypeCode"]
+- !private ["Ps23CustomStringConvertible", "UIApplication"]
+- !private ["Ps23CustomStringConvertible", "URL"]
+- !private ["Ps23CustomStringConvertible", "_getBuiltinLogicValue"]
+- !private ["Ps23CustomStringConvertible", "accessToken"]
+- ["Ps23CustomStringConvertible", "authOID"]
+- !private ["Ps23CustomStringConvertible", "authState"]
+- ["Ps23CustomStringConvertible", "authorization"]
+- !private ["Ps23CustomStringConvertible", "authorizer"]
+- !private ["Ps23CustomStringConvertible", "canAuthorize"]
+- !private ["Ps23CustomStringConvertible", "currentAuthorizationFlow"]
+- !private ["Ps23CustomStringConvertible", "delegate"]
+- ["Ps23CustomStringConvertible", "didReceiveMemoryWarning"]
+- !private ["Ps23CustomStringConvertible", "discoverConfiguration"]
+- ["Ps23CustomStringConvertible", "init"]
+- ["Ps23CustomStringConvertible", "kClientID"]
+- ["Ps23CustomStringConvertible", "kIssuer"]
+- ["Ps23CustomStringConvertible", "kRedirectURI"]
+- !private ["Ps23CustomStringConvertible", "lastTokenResponse"]
+- ["Ps23CustomStringConvertible", "loadState"]
+- !private ["Ps23CustomStringConvertible", "print"]
+- !private ["Ps23CustomStringConvertible", "removeFromKeychain"]
+- !private ["Ps23CustomStringConvertible", "save"]
+- ["Ps23CustomStringConvertible", "saveState"]
+- !private ["Ps23CustomStringConvertible", "scope"]
+- ["Ps23CustomStringConvertible", "scopes"]
+- ["Ps23CustomStringConvertible", "service"]
+- ["Ps23CustomStringConvertible", "setGtmAuthorization"]
+- !private ["Ps23CustomStringConvertible", "shared"]
+- ["Ps23CustomStringConvertible", "stateChanged"]
+- ["Ps23CustomStringConvertible", "viewDidLoad"]
+- ["Ps23CustomStringConvertible", ""]
+- !private ["Sd", "deinit"]
+- ["Ps9Equatable", "GTLService"]
+- !private ["Ps9Equatable", "GTMAppAuthFetcherAuthorization"]
+- !private ["Ps9Equatable", "OIDAuthState"]
+- !private ["Ps9Equatable", "OIDAuthorizationRequest"]
+- !private ["Ps9Equatable", "OIDAuthorizationService"]
+- !private ["Ps9Equatable", "OIDResponseTypeCode"]
+- !private ["Ps9Equatable", "UIApplication"]
+- !private ["Ps9Equatable", "URL"]
+- !private ["Ps9Equatable", "_getBuiltinLogicValue"]
+- !private ["Ps9Equatable", "accessToken"]
+- ["Ps9Equatable", "authOID"]
+- !private ["Ps9Equatable", "authState"]
+- ["Ps9Equatable", "authorization"]
+- !private ["Ps9Equatable", "authorizer"]
+- !private ["Ps9Equatable", "canAuthorize"]
+- !private ["Ps9Equatable", "currentAuthorizationFlow"]
+- !private ["Ps9Equatable", "delegate"]
+- ["Ps9Equatable", "didReceiveMemoryWarning"]
+- !private ["Ps9Equatable", "discoverConfiguration"]
+- ["Ps9Equatable", "init"]
+- ["Ps9Equatable", "kClientID"]
+- ["Ps9Equatable", "kIssuer"]
+- ["Ps9Equatable", "kRedirectURI"]
+- !private ["Ps9Equatable", "lastTokenResponse"]
+- ["Ps9Equatable", "loadState"]
+- !private ["Ps9Equatable", "print"]
+- !private ["Ps9Equatable", "removeFromKeychain"]
+- !private ["Ps9Equatable", "save"]
+- ["Ps9Equatable", "saveState"]
+- !private ["Ps9Equatable", "scope"]
+- ["Ps9Equatable", "scopes"]
+- ["Ps9Equatable", "service"]
+- ["Ps9Equatable", "setGtmAuthorization"]
+- !private ["Ps9Equatable", "shared"]
+- ["Ps9Equatable", "stateChanged"]
+- ["Ps9Equatable", "viewDidLoad"]
+- ["Ps9Equatable", ""]
+- !private ["Ps5Error", "deinit"]
+- !private ["Ps5Error", "localizedDescription"]
+- ["Ps25ExpressibleByArrayLiteral", "Element"]
+- !private ["Ps27ExpressibleByBooleanLiteral", "_getBuiltinLogicValue"]
+- ["Ps43ExpressibleByExtendedGraphemeClusterLiteral", "init"]
+- ["Ps32ExpressibleByStringInterpolation", "init"]
+- ["Ps26ExpressibleByStringLiteral", "init"]
+- ["Ps33ExpressibleByUnicodeScalarLiteral", "init"]
+- !private ["Sf", "deinit"]
+- !private ["CSo10GTLService", "authorizer"]
+- ["CSo10GTLService", "deinit"]
+- ["CSo10GTLService", "init"]
+- !private ["CSo30GTMAppAuthFetcherAuthorization", "canAuthorize"]
+- ["CSo30GTMAppAuthFetcherAuthorization", "deinit"]
+- !private ["CSo30GTMAppAuthFetcherAuthorization", "init"]
+- !private ["CSo30GTMAppAuthFetcherAuthorization", "removeFromKeychain"]
+- !private ["CSo30GTMAppAuthFetcherAuthorization", "save"]
+- !private ["PSo31GTMFetcherAuthorizationProtocol", "canAuthorize"]
+- !private ["PSo31GTMFetcherAuthorizationProtocol", "init"]
+- !private ["PSo31GTMFetcherAuthorizationProtocol", "removeFromKeychain"]
+- !private ["PSo31GTMFetcherAuthorizationProtocol", "save"]
+- ["Ps8Hashable", "GTLService"]
+- !private ["Ps8Hashable", "GTMAppAuthFetcherAuthorization"]
+- !private ["Ps8Hashable", "OIDAuthState"]
+- !private ["Ps8Hashable", "OIDAuthorizationRequest"]
+- !private ["Ps8Hashable", "OIDAuthorizationService"]
+- !private ["Ps8Hashable", "OIDResponseTypeCode"]
+- !private ["Ps8Hashable", "UIApplication"]
+- !private ["Ps8Hashable", "URL"]
+- !private ["Ps8Hashable", "_getBuiltinLogicValue"]
+- !private ["Ps8Hashable", "accessToken"]
+- ["Ps8Hashable", "authOID"]
+- !private ["Ps8Hashable", "authState"]
+- ["Ps8Hashable", "authorization"]
+- !private ["Ps8Hashable", "authorizer"]
+- !private ["Ps8Hashable", "canAuthorize"]
+- !private ["Ps8Hashable", "currentAuthorizationFlow"]
+- !private ["Ps8Hashable", "delegate"]
+- ["Ps8Hashable", "didReceiveMemoryWarning"]
+- !private ["Ps8Hashable", "discoverConfiguration"]
+- ["Ps8Hashable", "init"]
+- ["Ps8Hashable", "kClientID"]
+- ["Ps8Hashable", "kIssuer"]
+- ["Ps8Hashable", "kRedirectURI"]
+- !private ["Ps8Hashable", "lastTokenResponse"]
+- ["Ps8Hashable", "loadState"]
+- !private ["Ps8Hashable", "print"]
+- !private ["Ps8Hashable", "removeFromKeychain"]
+- !private ["Ps8Hashable", "save"]
+- ["Ps8Hashable", "saveState"]
+- !private ["Ps8Hashable", "scope"]
+- ["Ps8Hashable", "scopes"]
+- ["Ps8Hashable", "service"]
+- ["Ps8Hashable", "setGtmAuthorization"]
+- !private ["Ps8Hashable", "shared"]
+- ["Ps8Hashable", "stateChanged"]
+- ["Ps8Hashable", "viewDidLoad"]
+- ["Ps8Hashable", ""]
+- ["Ps9Indexable", "Element"]
+- ["Ps13IndexableBase", "Element"]
+- !private ["Si", "deinit"]
+- !private ["Vs5Int16", "deinit"]
+- !private ["Vs5Int32", "deinit"]
+- !private ["Vs5Int64", "deinit"]
+- !private ["Vs4Int8", "deinit"]
+- !private ["Ps25LosslessStringConvertible", "_getBuiltinLogicValue"]
+- ["Ps25LosslessStringConvertible", "init"]
+- ["Ps10MirrorPath", "init"]
+- ["Ps17MutableCollection", "Element"]
+- ["Ps16MutableIndexable", "Element"]
+- ["CSo7NSCoder", "deinit"]
+- ["PSo8NSCoding", "GTLService"]
+- !private ["PSo8NSCoding", "GTMAppAuthFetcherAuthorization"]
+- !private ["PSo8NSCoding", "OIDAuthState"]
+- !private ["PSo8NSCoding", "OIDAuthorizationRequest"]
+- !private ["PSo8NSCoding", "OIDAuthorizationService"]
+- !private ["PSo8NSCoding", "OIDResponseTypeCode"]
+- !private ["PSo8NSCoding", "UIApplication"]
+- !private ["PSo8NSCoding", "URL"]
+- !private ["PSo8NSCoding", "accessToken"]
+- ["PSo8NSCoding", "authOID"]
+- !private ["PSo8NSCoding", "authState"]
+- ["PSo8NSCoding", "authorization"]
+- !private ["PSo8NSCoding", "canAuthorize"]
+- ["PSo8NSCoding", "didReceiveMemoryWarning"]
+- ["PSo8NSCoding", "init"]
+- ["PSo8NSCoding", "kClientID"]
+- ["PSo8NSCoding", "kIssuer"]
+- ["PSo8NSCoding", "kRedirectURI"]
+- !private ["PSo8NSCoding", "lastTokenResponse"]
+- ["PSo8NSCoding", "loadState"]
+- !private ["PSo8NSCoding", "print"]
+- !private ["PSo8NSCoding", "removeFromKeychain"]
+- !private ["PSo8NSCoding", "save"]
+- ["PSo8NSCoding", "saveState"]
+- !private ["PSo8NSCoding", "scope"]
+- ["PSo8NSCoding", "scopes"]
+- ["PSo8NSCoding", "service"]
+- ["PSo8NSCoding", "setGtmAuthorization"]
+- ["PSo8NSCoding", "stateChanged"]
+- ["PSo8NSCoding", "viewDidLoad"]
+- ["PSo8NSCoding", ""]
+- !private ["PSo9NSCopying", "accessToken"]
+- ["PSo9NSCopying", "init"]
+- !private ["PSo9NSCopying", "scope"]
+- ["PSo26NSExtensionRequestHandling", "GTLService"]
+- !private ["PSo26NSExtensionRequestHandling", "GTMAppAuthFetcherAuthorization"]
+- !private ["PSo26NSExtensionRequestHandling", "OIDAuthState"]
+- !private ["PSo26NSExtensionRequestHandling", "OIDAuthorizationRequest"]
+- !private ["PSo26NSExtensionRequestHandling", "OIDAuthorizationService"]
+- !private ["PSo26NSExtensionRequestHandling", "OIDResponseTypeCode"]
+- !private ["PSo26NSExtensionRequestHandling", "UIApplication"]
+- !private ["PSo26NSExtensionRequestHandling", "URL"]
+- ["PSo26NSExtensionRequestHandling", "authOID"]
+- ["PSo26NSExtensionRequestHandling", "authorization"]
+- ["PSo26NSExtensionRequestHandling", "didReceiveMemoryWarning"]
+- !private ["PSo26NSExtensionRequestHandling", "init"]
+- ["PSo26NSExtensionRequestHandling", "kClientID"]
+- ["PSo26NSExtensionRequestHandling", "kIssuer"]
+- ["PSo26NSExtensionRequestHandling", "kRedirectURI"]
+- ["PSo26NSExtensionRequestHandling", "loadState"]
+- !private ["PSo26NSExtensionRequestHandling", "print"]
+- ["PSo26NSExtensionRequestHandling", "saveState"]
+- ["PSo26NSExtensionRequestHandling", "scopes"]
+- ["PSo26NSExtensionRequestHandling", "service"]
+- ["PSo26NSExtensionRequestHandling", "setGtmAuthorization"]
+- ["PSo26NSExtensionRequestHandling", "stateChanged"]
+- ["PSo26NSExtensionRequestHandling", "viewDidLoad"]
+- ["PSo26NSExtensionRequestHandling", ""]
+- ["PSo16NSMutableCopying", "init"]
+- !private ["CSo8NSObject", "AppDelegate"]
+- ["CSo8NSObject", "GTLService"]
+- ["CSo8NSObject", "GTMAppAuthFetcherAuthorization"]
+- !private ["CSo8NSObject", "OIDAuthState"]
+- !private ["CSo8NSObject", "OIDAuthorizationRequest"]
+- !private ["CSo8NSObject", "OIDAuthorizationService"]
+- !private ["CSo8NSObject", "OIDResponseTypeCode"]
+- !private ["CSo8NSObject", "UIApplication"]
+- !private ["CSo8NSObject", "URL"]
+- !private ["CSo8NSObject", "accessToken"]
+- ["CSo8NSObject", "authOID"]
+- !private ["CSo8NSObject", "authState"]
+- ["CSo8NSObject", "authorization"]
+- !private ["CSo8NSObject", "authorizer"]
+- !private ["CSo8NSObject", "canAuthorize"]
+- !private ["CSo8NSObject", "currentAuthorizationFlow"]
+- !private ["CSo8NSObject", "delegate"]
+- ["CSo8NSObject", "didReceiveMemoryWarning"]
+- !private ["CSo8NSObject", "discoverConfiguration"]
+- ["CSo8NSObject", "init"]
+- ["CSo8NSObject", "kClientID"]
+- ["CSo8NSObject", "kIssuer"]
+- ["CSo8NSObject", "kRedirectURI"]
+- !private ["CSo8NSObject", "lastTokenResponse"]
+- ["CSo8NSObject", "loadState"]
+- !private ["CSo8NSObject", "print"]
+- !private ["CSo8NSObject", "removeFromKeychain"]
+- !private ["CSo8NSObject", "save"]
+- ["CSo8NSObject", "saveState"]
+- !private ["CSo8NSObject", "scope"]
+- ["CSo8NSObject", "scopes"]
+- ["CSo8NSObject", "service"]
+- ["CSo8NSObject", "setGtmAuthorization"]
+- !private ["CSo8NSObject", "shared"]
+- ["CSo8NSObject", "stateChanged"]
+- ["CSo8NSObject", "viewDidLoad"]
+- ["PSo16NSObjectProtocol", "GTLService"]
+- !private ["PSo16NSObjectProtocol", "GTMAppAuthFetcherAuthorization"]
+- !private ["PSo16NSObjectProtocol", "OIDAuthState"]
+- !private ["PSo16NSObjectProtocol", "OIDAuthorizationRequest"]
+- !private ["PSo16NSObjectProtocol", "OIDAuthorizationService"]
+- !private ["PSo16NSObjectProtocol", "OIDResponseTypeCode"]
+- !private ["PSo16NSObjectProtocol", "UIApplication"]
+- !private ["PSo16NSObjectProtocol", "URL"]
+- !private ["PSo16NSObjectProtocol", "accessToken"]
+- ["PSo16NSObjectProtocol", "authOID"]
+- !private ["PSo16NSObjectProtocol", "authState"]
+- ["PSo16NSObjectProtocol", "authorization"]
+- !private ["PSo16NSObjectProtocol", "authorizer"]
+- !private ["PSo16NSObjectProtocol", "canAuthorize"]
+- !private ["PSo16NSObjectProtocol", "currentAuthorizationFlow"]
+- !private ["PSo16NSObjectProtocol", "delegate"]
+- ["PSo16NSObjectProtocol", "didReceiveMemoryWarning"]
+- !private ["PSo16NSObjectProtocol", "discoverConfiguration"]
+- ["PSo16NSObjectProtocol", "init"]
+- ["PSo16NSObjectProtocol", "kClientID"]
+- ["PSo16NSObjectProtocol", "kIssuer"]
+- ["PSo16NSObjectProtocol", "kRedirectURI"]
+- !private ["PSo16NSObjectProtocol", "lastTokenResponse"]
+- ["PSo16NSObjectProtocol", "loadState"]
+- !private ["PSo16NSObjectProtocol", "print"]
+- !private ["PSo16NSObjectProtocol", "removeFromKeychain"]
+- !private ["PSo16NSObjectProtocol", "save"]
+- ["PSo16NSObjectProtocol", "saveState"]
+- !private ["PSo16NSObjectProtocol", "scope"]
+- ["PSo16NSObjectProtocol", "scopes"]
+- ["PSo16NSObjectProtocol", "service"]
+- ["PSo16NSObjectProtocol", "setGtmAuthorization"]
+- !private ["PSo16NSObjectProtocol", "shared"]
+- ["PSo16NSObjectProtocol", "stateChanged"]
+- ["PSo16NSObjectProtocol", "viewDidLoad"]
+- ["PSo16NSObjectProtocol", ""]
+- !private ["PSo14NSSecureCoding", "accessToken"]
+- !private ["PSo14NSSecureCoding", "authState"]
+- !private ["PSo14NSSecureCoding", "canAuthorize"]
+- ["PSo14NSSecureCoding", "init"]
+- !private ["PSo14NSSecureCoding", "lastTokenResponse"]
+- !private ["PSo14NSSecureCoding", "removeFromKeychain"]
+- !private ["PSo14NSSecureCoding", "save"]
+- !private ["PSo14NSSecureCoding", "scope"]
+- ["CSo8NSString", "init"]
+- !private ["CSo12OIDAuthState", "authState"]
+- !private ["CSo12OIDAuthState", "deinit"]
+- !private ["CSo12OIDAuthState", "lastTokenResponse"]
+- !private ["PSo27OIDAuthorizationFlowSession", "deinit"]
+- !private ["CSo23OIDAuthorizationRequest", "deinit"]
+- !private ["CSo23OIDAuthorizationRequest", "init"]
+- !private ["CSo23OIDAuthorizationRequest", "scope"]
+- !private ["CSo23OIDAuthorizationService", "discoverConfiguration"]
+- !private ["CSo23OIDServiceConfiguration", "deinit"]
+- !private ["CSo16OIDTokenResponse", "accessToken"]
+- !private ["CSo16OIDTokenResponse", "deinit"]
+- ["Sq", "deinit"]
+- ["Ps22RandomAccessCollection", "Element"]
+- ["Ps21RandomAccessIndexable", "Element"]
+- ["Ps26RangeReplaceableCollection", "Element"]
+- ["Ps25RangeReplaceableIndexable", "Element"]
+- !private ["P10Foundation20ReferenceConvertible", "init"]
+- ["Ps8Sequence", "Element"]
+- ["SS", "deinit"]
+- ["SS", "init"]
+- ["Ps16TextOutputStream", "init"]
+- ["Ps20TextOutputStreamable", "init"]
+- ["PSo21UIAppearanceContainer", "GTLService"]
+- !private ["PSo21UIAppearanceContainer", "GTMAppAuthFetcherAuthorization"]
+- !private ["PSo21UIAppearanceContainer", "OIDAuthState"]
+- !private ["PSo21UIAppearanceContainer", "OIDAuthorizationRequest"]
+- !private ["PSo21UIAppearanceContainer", "OIDAuthorizationService"]
+- !private ["PSo21UIAppearanceContainer", "OIDResponseTypeCode"]
+- !private ["PSo21UIAppearanceContainer", "UIApplication"]
+- !private ["PSo21UIAppearanceContainer", "URL"]
+- ["PSo21UIAppearanceContainer", "authOID"]
+- ["PSo21UIAppearanceContainer", "authorization"]
+- ["PSo21UIAppearanceContainer", "didReceiveMemoryWarning"]
+- !private ["PSo21UIAppearanceContainer", "init"]
+- ["PSo21UIAppearanceContainer", "kClientID"]
+- ["PSo21UIAppearanceContainer", "kIssuer"]
+- ["PSo21UIAppearanceContainer", "kRedirectURI"]
+- ["PSo21UIAppearanceContainer", "loadState"]
+- !private ["PSo21UIAppearanceContainer", "print"]
+- ["PSo21UIAppearanceContainer", "saveState"]
+- ["PSo21UIAppearanceContainer", "scopes"]
+- ["PSo21UIAppearanceContainer", "service"]
+- ["PSo21UIAppearanceContainer", "setGtmAuthorization"]
+- ["PSo21UIAppearanceContainer", "stateChanged"]
+- ["PSo21UIAppearanceContainer", "viewDidLoad"]
+- ["PSo21UIAppearanceContainer", ""]
+- !private ["CSo13UIApplication", "deinit"]
+- !private ["CSo13UIApplication", "delegate"]
+- !private ["CSo13UIApplication", "shared"]
+- !private ["PSo21UIApplicationDelegate", "currentAuthorizationFlow"]
+- ["PSo18UIContentContainer", "GTLService"]
+- !private ["PSo18UIContentContainer", "GTMAppAuthFetcherAuthorization"]
+- !private ["PSo18UIContentContainer", "OIDAuthState"]
+- !private ["PSo18UIContentContainer", "OIDAuthorizationRequest"]
+- !private ["PSo18UIContentContainer", "OIDAuthorizationService"]
+- !private ["PSo18UIContentContainer", "OIDResponseTypeCode"]
+- !private ["PSo18UIContentContainer", "UIApplication"]
+- !private ["PSo18UIContentContainer", "URL"]
+- ["PSo18UIContentContainer", "authOID"]
+- ["PSo18UIContentContainer", "authorization"]
+- ["PSo18UIContentContainer", "didReceiveMemoryWarning"]
+- !private ["PSo18UIContentContainer", "init"]
+- ["PSo18UIContentContainer", "kClientID"]
+- ["PSo18UIContentContainer", "kIssuer"]
+- ["PSo18UIContentContainer", "kRedirectURI"]
+- ["PSo18UIContentContainer", "loadState"]
+- !private ["PSo18UIContentContainer", "print"]
+- ["PSo18UIContentContainer", "saveState"]
+- ["PSo18UIContentContainer", "scopes"]
+- ["PSo18UIContentContainer", "service"]
+- ["PSo18UIContentContainer", "setGtmAuthorization"]
+- ["PSo18UIContentContainer", "stateChanged"]
+- ["PSo18UIContentContainer", "viewDidLoad"]
+- ["PSo18UIContentContainer", ""]
+- ["PSo18UIFocusEnvironment", "GTLService"]
+- !private ["PSo18UIFocusEnvironment", "GTMAppAuthFetcherAuthorization"]
+- !private ["PSo18UIFocusEnvironment", "OIDAuthState"]
+- !private ["PSo18UIFocusEnvironment", "OIDAuthorizationRequest"]
+- !private ["PSo18UIFocusEnvironment", "OIDAuthorizationService"]
+- !private ["PSo18UIFocusEnvironment", "OIDResponseTypeCode"]
+- !private ["PSo18UIFocusEnvironment", "UIApplication"]
+- !private ["PSo18UIFocusEnvironment", "URL"]
+- ["PSo18UIFocusEnvironment", "authOID"]
+- ["PSo18UIFocusEnvironment", "authorization"]
+- ["PSo18UIFocusEnvironment", "didReceiveMemoryWarning"]
+- !private ["PSo18UIFocusEnvironment", "init"]
+- ["PSo18UIFocusEnvironment", "kClientID"]
+- ["PSo18UIFocusEnvironment", "kIssuer"]
+- ["PSo18UIFocusEnvironment", "kRedirectURI"]
+- ["PSo18UIFocusEnvironment", "loadState"]
+- !private ["PSo18UIFocusEnvironment", "print"]
+- ["PSo18UIFocusEnvironment", "saveState"]
+- ["PSo18UIFocusEnvironment", "scopes"]
+- ["PSo18UIFocusEnvironment", "service"]
+- ["PSo18UIFocusEnvironment", "setGtmAuthorization"]
+- ["PSo18UIFocusEnvironment", "stateChanged"]
+- ["PSo18UIFocusEnvironment", "viewDidLoad"]
+- ["PSo18UIFocusEnvironment", ""]
+- !private ["CSo11UIResponder", "AppDelegate"]
+- ["CSo11UIResponder", "GTLService"]
+- ["CSo11UIResponder", "GTMAppAuthFetcherAuthorization"]
+- !private ["CSo11UIResponder", "OIDAuthState"]
+- !private ["CSo11UIResponder", "OIDAuthorizationRequest"]
+- !private ["CSo11UIResponder", "OIDAuthorizationService"]
+- !private ["CSo11UIResponder", "OIDResponseTypeCode"]
+- !private ["CSo11UIResponder", "UIApplication"]
+- !private ["CSo11UIResponder", "URL"]
+- ["CSo11UIResponder", "authOID"]
+- ["CSo11UIResponder", "authorization"]
+- !private ["CSo11UIResponder", "currentAuthorizationFlow"]
+- !private ["CSo11UIResponder", "delegate"]
+- ["CSo11UIResponder", "didReceiveMemoryWarning"]
+- ["CSo11UIResponder", "init"]
+- ["CSo11UIResponder", "kClientID"]
+- ["CSo11UIResponder", "kIssuer"]
+- ["CSo11UIResponder", "kRedirectURI"]
+- ["CSo11UIResponder", "loadState"]
+- !private ["CSo11UIResponder", "print"]
+- ["CSo11UIResponder", "saveState"]
+- ["CSo11UIResponder", "scopes"]
+- ["CSo11UIResponder", "service"]
+- ["CSo11UIResponder", "setGtmAuthorization"]
+- !private ["CSo11UIResponder", "shared"]
+- ["CSo11UIResponder", "stateChanged"]
+- ["CSo11UIResponder", "viewDidLoad"]
+- ["PSo30UIResponderStandardEditActions", "GTLService"]
+- !private ["PSo30UIResponderStandardEditActions", "GTMAppAuthFetcherAuthorization"]
+- !private ["PSo30UIResponderStandardEditActions", "OIDAuthState"]
+- !private ["PSo30UIResponderStandardEditActions", "OIDAuthorizationRequest"]
+- !private ["PSo30UIResponderStandardEditActions", "OIDAuthorizationService"]
+- !private ["PSo30UIResponderStandardEditActions", "OIDResponseTypeCode"]
+- !private ["PSo30UIResponderStandardEditActions", "UIApplication"]
+- !private ["PSo30UIResponderStandardEditActions", "URL"]
+- ["PSo30UIResponderStandardEditActions", "authOID"]
+- ["PSo30UIResponderStandardEditActions", "authorization"]
+- !private ["PSo30UIResponderStandardEditActions", "currentAuthorizationFlow"]
+- !private ["PSo30UIResponderStandardEditActions", "delegate"]
+- ["PSo30UIResponderStandardEditActions", "didReceiveMemoryWarning"]
+- !private ["PSo30UIResponderStandardEditActions", "init"]
+- ["PSo30UIResponderStandardEditActions", "kClientID"]
+- ["PSo30UIResponderStandardEditActions", "kIssuer"]
+- ["PSo30UIResponderStandardEditActions", "kRedirectURI"]
+- ["PSo30UIResponderStandardEditActions", "loadState"]
+- !private ["PSo30UIResponderStandardEditActions", "print"]
+- ["PSo30UIResponderStandardEditActions", "saveState"]
+- ["PSo30UIResponderStandardEditActions", "scopes"]
+- ["PSo30UIResponderStandardEditActions", "service"]
+- ["PSo30UIResponderStandardEditActions", "setGtmAuthorization"]
+- !private ["PSo30UIResponderStandardEditActions", "shared"]
+- ["PSo30UIResponderStandardEditActions", "stateChanged"]
+- ["PSo30UIResponderStandardEditActions", "viewDidLoad"]
+- ["PSo30UIResponderStandardEditActions", ""]
+- ["PSo16UIStateRestoring", "GTLService"]
+- !private ["PSo16UIStateRestoring", "GTMAppAuthFetcherAuthorization"]
+- !private ["PSo16UIStateRestoring", "OIDAuthState"]
+- !private ["PSo16UIStateRestoring", "OIDAuthorizationRequest"]
+- !private ["PSo16UIStateRestoring", "OIDAuthorizationService"]
+- !private ["PSo16UIStateRestoring", "OIDResponseTypeCode"]
+- !private ["PSo16UIStateRestoring", "UIApplication"]
+- !private ["PSo16UIStateRestoring", "URL"]
+- ["PSo16UIStateRestoring", "authOID"]
+- ["PSo16UIStateRestoring", "authorization"]
+- ["PSo16UIStateRestoring", "didReceiveMemoryWarning"]
+- !private ["PSo16UIStateRestoring", "init"]
+- ["PSo16UIStateRestoring", "kClientID"]
+- ["PSo16UIStateRestoring", "kIssuer"]
+- ["PSo16UIStateRestoring", "kRedirectURI"]
+- ["PSo16UIStateRestoring", "loadState"]
+- !private ["PSo16UIStateRestoring", "print"]
+- ["PSo16UIStateRestoring", "saveState"]
+- ["PSo16UIStateRestoring", "scopes"]
+- ["PSo16UIStateRestoring", "service"]
+- ["PSo16UIStateRestoring", "setGtmAuthorization"]
+- ["PSo16UIStateRestoring", "stateChanged"]
+- ["PSo16UIStateRestoring", "viewDidLoad"]
+- ["PSo16UIStateRestoring", ""]
+- ["PSo18UITraitEnvironment", "GTLService"]
+- !private ["PSo18UITraitEnvironment", "GTMAppAuthFetcherAuthorization"]
+- !private ["PSo18UITraitEnvironment", "OIDAuthState"]
+- !private ["PSo18UITraitEnvironment", "OIDAuthorizationRequest"]
+- !private ["PSo18UITraitEnvironment", "OIDAuthorizationService"]
+- !private ["PSo18UITraitEnvironment", "OIDResponseTypeCode"]
+- !private ["PSo18UITraitEnvironment", "UIApplication"]
+- !private ["PSo18UITraitEnvironment", "URL"]
+- ["PSo18UITraitEnvironment", "authOID"]
+- ["PSo18UITraitEnvironment", "authorization"]
+- ["PSo18UITraitEnvironment", "didReceiveMemoryWarning"]
+- !private ["PSo18UITraitEnvironment", "init"]
+- ["PSo18UITraitEnvironment", "kClientID"]
+- ["PSo18UITraitEnvironment", "kIssuer"]
+- ["PSo18UITraitEnvironment", "kRedirectURI"]
+- ["PSo18UITraitEnvironment", "loadState"]
+- !private ["PSo18UITraitEnvironment", "print"]
+- ["PSo18UITraitEnvironment", "saveState"]
+- ["PSo18UITraitEnvironment", "scopes"]
+- ["PSo18UITraitEnvironment", "service"]
+- ["PSo18UITraitEnvironment", "setGtmAuthorization"]
+- ["PSo18UITraitEnvironment", "stateChanged"]
+- ["PSo18UITraitEnvironment", "viewDidLoad"]
+- ["PSo18UITraitEnvironment", ""]
+- !private ["CSo16UIViewController", "AppDelegate"]
+- ["CSo16UIViewController", "GTLService"]
+- ["CSo16UIViewController", "GTMAppAuthFetcherAuthorization"]
+- !private ["CSo16UIViewController", "OIDAuthState"]
+- !private ["CSo16UIViewController", "OIDAuthorizationRequest"]
+- !private ["CSo16UIViewController", "OIDAuthorizationService"]
+- !private ["CSo16UIViewController", "OIDResponseTypeCode"]
+- !private ["CSo16UIViewController", "UIApplication"]
+- !private ["CSo16UIViewController", "URL"]
+- ["CSo16UIViewController", "authOID"]
+- ["CSo16UIViewController", "authorization"]
+- ["CSo16UIViewController", "deinit"]
+- ["CSo16UIViewController", "didReceiveMemoryWarning"]
+- ["CSo16UIViewController", "init"]
+- ["CSo16UIViewController", "kClientID"]
+- ["CSo16UIViewController", "kIssuer"]
+- ["CSo16UIViewController", "kRedirectURI"]
+- ["CSo16UIViewController", "loadState"]
+- !private ["CSo16UIViewController", "print"]
+- ["CSo16UIViewController", "saveState"]
+- ["CSo16UIViewController", "scopes"]
+- ["CSo16UIViewController", "service"]
+- ["CSo16UIViewController", "setGtmAuthorization"]
+- ["CSo16UIViewController", "stateChanged"]
+- ["CSo16UIViewController", "viewDidLoad"]
+- ["CSo16UIViewController", ""]
+- !private ["Su", "deinit"]
+- !private ["Vs6UInt16", "deinit"]
+- !private ["Vs6UInt32", "deinit"]
+- !private ["Vs6UInt64", "deinit"]
+- !private ["Vs5UInt8", "deinit"]
+- ["V10Foundation3URL", "deinit"]
+- !private ["V10Foundation3URL", "init"]
+- !private ["Sc", "deinit"]
+- !private ["C15GTMAppAuthSwift14ViewController", "AppDelegate"]
+- ["C15GTMAppAuthSwift14ViewController", "GTLService"]
+- ["C15GTMAppAuthSwift14ViewController", "GTMAppAuthFetcherAuthorization"]
+- !private ["C15GTMAppAuthSwift14ViewController", "OIDAuthState"]
+- !private ["C15GTMAppAuthSwift14ViewController", "OIDAuthorizationRequest"]
+- !private ["C15GTMAppAuthSwift14ViewController", "OIDAuthorizationService"]
+- !private ["C15GTMAppAuthSwift14ViewController", "OIDResponseTypeCode"]
+- !private ["C15GTMAppAuthSwift14ViewController", "UIApplication"]
+- !private ["C15GTMAppAuthSwift14ViewController", "URL"]
+- ["C15GTMAppAuthSwift14ViewController", "authOID"]
+- ["C15GTMAppAuthSwift14ViewController", "authorization"]
+- ["C15GTMAppAuthSwift14ViewController", "deinit"]
+- ["C15GTMAppAuthSwift14ViewController", "didReceiveMemoryWarning"]
+- ["C15GTMAppAuthSwift14ViewController", "init"]
+- !private ["C15GTMAppAuthSwift14ViewController", "kClientID"]
+- !private ["C15GTMAppAuthSwift14ViewController", "kIssuer"]
+- !private ["C15GTMAppAuthSwift14ViewController", "kRedirectURI"]
+- ["C15GTMAppAuthSwift14ViewController", "loadState"]
+- !private ["C15GTMAppAuthSwift14ViewController", "print"]
+- ["C15GTMAppAuthSwift14ViewController", "saveState"]
+- !private ["C15GTMAppAuthSwift14ViewController", "scopes"]
+- !private ["C15GTMAppAuthSwift14ViewController", "service"]
+- ["C15GTMAppAuthSwift14ViewController", "setGtmAuthorization"]
+- ["C15GTMAppAuthSwift14ViewController", "stateChanged"]
+- ["C15GTMAppAuthSwift14ViewController", "viewDidLoad"]
+- ["Ps14_ArrayProtocol", "Element"]
+- ["Ps24_DestructorSafeContainer", "Element"]
+- !private ["Ps35_ExpressibleByBuiltinBooleanLiteral", "_getBuiltinLogicValue"]
+- ["Ps51_ExpressibleByBuiltinExtendedGraphemeClusterLiteral", "init"]
+- ["Ps34_ExpressibleByBuiltinStringLiteral", "init"]
+- ["Ps39_ExpressibleByBuiltinUTF16StringLiteral", "init"]
+- ["Ps41_ExpressibleByBuiltinUnicodeScalarLiteral", "init"]
+- !private ["Ps34_ExpressibleByFileReferenceLiteral", "init"]
+- ["Ps35_HasCustomAnyHashableRepresentation", "init"]
+- ["Ps9_Hashable", "GTLService"]
+- !private ["Ps9_Hashable", "GTMAppAuthFetcherAuthorization"]
+- !private ["Ps9_Hashable", "OIDAuthState"]
+- !private ["Ps9_Hashable", "OIDAuthorizationRequest"]
+- !private ["Ps9_Hashable", "OIDAuthorizationService"]
+- !private ["Ps9_Hashable", "OIDResponseTypeCode"]
+- !private ["Ps9_Hashable", "UIApplication"]
+- !private ["Ps9_Hashable", "URL"]
+- !private ["Ps9_Hashable", "_getBuiltinLogicValue"]
+- !private ["Ps9_Hashable", "accessToken"]
+- ["Ps9_Hashable", "authOID"]
+- !private ["Ps9_Hashable", "authState"]
+- ["Ps9_Hashable", "authorization"]
+- !private ["Ps9_Hashable", "authorizer"]
+- !private ["Ps9_Hashable", "canAuthorize"]
+- !private ["Ps9_Hashable", "currentAuthorizationFlow"]
+- !private ["Ps9_Hashable", "delegate"]
+- ["Ps9_Hashable", "didReceiveMemoryWarning"]
+- !private ["Ps9_Hashable", "discoverConfiguration"]
+- ["Ps9_Hashable", "init"]
+- ["Ps9_Hashable", "kClientID"]
+- ["Ps9_Hashable", "kIssuer"]
+- ["Ps9_Hashable", "kRedirectURI"]
+- !private ["Ps9_Hashable", "lastTokenResponse"]
+- ["Ps9_Hashable", "loadState"]
+- !private ["Ps9_Hashable", "print"]
+- !private ["Ps9_Hashable", "removeFromKeychain"]
+- !private ["Ps9_Hashable", "save"]
+- ["Ps9_Hashable", "saveState"]
+- !private ["Ps9_Hashable", "scope"]
+- ["Ps9_Hashable", "scopes"]
+- ["Ps9_Hashable", "service"]
+- ["Ps9_Hashable", "setGtmAuthorization"]
+- !private ["Ps9_Hashable", "shared"]
+- ["Ps9_Hashable", "stateChanged"]
+- ["Ps9_Hashable", "viewDidLoad"]
+- ["Ps9_Hashable", ""]
+- ["Ps21_ObjectiveCBridgeable", "Element"]
+- !private ["Ps21_ObjectiveCBridgeable", "_getBuiltinLogicValue"]
+- ["Ps21_ObjectiveCBridgeable", "init"]
+- !private ["Vs26_OptionalNilComparisonType", "deinit"]
+depends-nominal:
+- "Ps9AnyObject"
+- !private "C15GTMAppAuthSwift11AppDelegate"
+- "Sa"
+- "Ps23BidirectionalCollection"
+- "Ps22BidirectionalIndexable"
+- "Sb"
+- "Ps7CVarArg"
+- !private "Vs9Character"
+- "Ps10Collection"
+- "Ps10Comparable"
+- "Ps28CustomDebugStringConvertible"
+- "Ps29CustomPlaygroundQuickLookable"
+- "Ps17CustomReflectable"
+- "Ps23CustomStringConvertible"
+- !private "Sd"
+- "Ps9Equatable"
+- !private "Ps5Error"
+- "Ps25ExpressibleByArrayLiteral"
+- !private "Ps27ExpressibleByBooleanLiteral"
+- "Ps43ExpressibleByExtendedGraphemeClusterLiteral"
+- "Ps32ExpressibleByStringInterpolation"
+- "Ps26ExpressibleByStringLiteral"
+- "Ps33ExpressibleByUnicodeScalarLiteral"
+- !private "Sf"
+- "CSo10GTLService"
+- "CSo30GTMAppAuthFetcherAuthorization"
+- !private "PSo31GTMFetcherAuthorizationProtocol"
+- "Ps8Hashable"
+- "Ps9Indexable"
+- "Ps13IndexableBase"
+- !private "Si"
+- !private "Vs5Int16"
+- !private "Vs5Int32"
+- !private "Vs5Int64"
+- !private "Vs4Int8"
+- "Ps25LosslessStringConvertible"
+- "Ps10MirrorPath"
+- "Ps17MutableCollection"
+- "Ps16MutableIndexable"
+- "CSo7NSCoder"
+- "PSo8NSCoding"
+- "PSo9NSCopying"
+- "PSo26NSExtensionRequestHandling"
+- "PSo16NSMutableCopying"
+- "CSo8NSObject"
+- "PSo16NSObjectProtocol"
+- "PSo14NSSecureCoding"
+- "CSo8NSString"
+- !private "CSo12OIDAuthState"
+- !private "PSo27OIDAuthorizationFlowSession"
+- !private "CSo23OIDAuthorizationRequest"
+- !private "CSo23OIDAuthorizationService"
+- !private "CSo23OIDServiceConfiguration"
+- !private "CSo16OIDTokenResponse"
+- "Sq"
+- "Ps22RandomAccessCollection"
+- "Ps21RandomAccessIndexable"
+- "Ps26RangeReplaceableCollection"
+- "Ps25RangeReplaceableIndexable"
+- !private "P10Foundation20ReferenceConvertible"
+- "Ps8Sequence"
+- "SS"
+- "Ps16TextOutputStream"
+- "Ps20TextOutputStreamable"
+- "PSo21UIAppearanceContainer"
+- !private "CSo13UIApplication"
+- !private "PSo21UIApplicationDelegate"
+- "PSo18UIContentContainer"
+- "PSo18UIFocusEnvironment"
+- "CSo11UIResponder"
+- "PSo30UIResponderStandardEditActions"
+- "PSo16UIStateRestoring"
+- "PSo18UITraitEnvironment"
+- "CSo16UIViewController"
+- !private "Su"
+- !private "Vs6UInt16"
+- !private "Vs6UInt32"
+- !private "Vs6UInt64"
+- !private "Vs5UInt8"
+- "V10Foundation3URL"
+- !private "Sc"
+- "C15GTMAppAuthSwift14ViewController"
+- "Ps14_ArrayProtocol"
+- "Ps24_DestructorSafeContainer"
+- !private "Ps35_ExpressibleByBuiltinBooleanLiteral"
+- "Ps51_ExpressibleByBuiltinExtendedGraphemeClusterLiteral"
+- "Ps34_ExpressibleByBuiltinStringLiteral"
+- "Ps39_ExpressibleByBuiltinUTF16StringLiteral"
+- "Ps41_ExpressibleByBuiltinUnicodeScalarLiteral"
+- !private "Ps34_ExpressibleByFileReferenceLiteral"
+- "Ps35_HasCustomAnyHashableRepresentation"
+- "Ps9_Hashable"
+- "Ps21_ObjectiveCBridgeable"
+- !private "Vs26_OptionalNilComparisonType"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/QuartzCore.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreImage.swiftmodule"
+- "/Users/doki/Desktop/code11/GTMAppAuthSwift/Build/Products/Debug-iphonesimulator/GTMSessionFetcher/GTMSessionFetcher.framework/Headers/GTMReadMonitorInputStream.h"
+- "/Users/doki/Desktop/code11/GTMAppAuthSwift/Build/Products/Debug-iphonesimulator/GTMSessionFetcher/GTMSessionFetcher.framework/Headers/GTMMIMEDocument.h"
+- "/Users/doki/Desktop/code11/GTMAppAuthSwift/Build/Products/Debug-iphonesimulator/GTMSessionFetcher/GTMSessionFetcher.framework/Headers/GTMGatherInputStream.h"
+- "/Users/doki/Desktop/code11/GTMAppAuthSwift/Build/Products/Debug-iphonesimulator/GTMSessionFetcher/GTMSessionFetcher.framework/Headers/GTMSessionUploadFetcher.h"
+- "/Users/doki/Desktop/code11/GTMAppAuthSwift/Build/Products/Debug-iphonesimulator/GTMSessionFetcher/GTMSessionFetcher.framework/Headers/GTMSessionFetcherService.h"
+- "/Users/doki/Desktop/code11/GTMAppAuthSwift/Build/Products/Debug-iphonesimulator/GTMSessionFetcher/GTMSessionFetcher.framework/Headers/GTMSessionFetcherLogging.h"
+- "/Users/doki/Desktop/code11/GTMAppAuthSwift/Build/Products/Debug-iphonesimulator/GTMSessionFetcher/GTMSessionFetcher.framework/Headers/GTMSessionFetcher.h"
+- "/Users/doki/Desktop/code11/GTMAppAuthSwift/Build/Products/Debug-iphonesimulator/GTMSessionFetcher/GTMSessionFetcher.framework/Headers/GTMSessionFetcher-umbrella.h"
+- "/Users/doki/Desktop/code11/GTMAppAuthSwift/Build/Products/Debug-iphonesimulator/GTMSessionFetcher/GTMSessionFetcher.framework/Modules/module.modulemap"
+- "/Users/doki/Desktop/code11/GTMAppAuthSwift/Build/Products/Debug-iphonesimulator/GoogleAPIClient/GoogleAPIClient.framework/Headers/GTLTargetNamespace.h"
+- "/Users/doki/Desktop/code11/GTMAppAuthSwift/Build/Products/Debug-iphonesimulator/GoogleAPIClient/GoogleAPIClient.framework/Headers/GTLBase64.h"
+- "/Users/doki/Desktop/code11/GTMAppAuthSwift/Build/Products/Debug-iphonesimulator/GoogleAPIClient/GoogleAPIClient.framework/Headers/GTLJSONParser.h"
+- "/Users/doki/Desktop/code11/GTMAppAuthSwift/Build/Products/Debug-iphonesimulator/GoogleAPIClient/GoogleAPIClient.framework/Headers/GTLFramework.h"
+- "/Users/doki/Desktop/code11/GTMAppAuthSwift/Build/Products/Debug-iphonesimulator/GoogleAPIClient/GoogleAPIClient.framework/Headers/GTLService.h"
+- "/Users/doki/Desktop/code11/GTMAppAuthSwift/Build/Products/Debug-iphonesimulator/GoogleAPIClient/GoogleAPIClient.framework/Headers/GTLRuntimeCommon.h"
+- "/Users/doki/Desktop/code11/GTMAppAuthSwift/Build/Products/Debug-iphonesimulator/GoogleAPIClient/GoogleAPIClient.framework/Headers/GTLErrorObject.h"
+- "/Users/doki/Desktop/code11/GTMAppAuthSwift/Build/Products/Debug-iphonesimulator/GoogleAPIClient/GoogleAPIClient.framework/Headers/GTLBatchResult.h"
+- "/Users/doki/Desktop/code11/GTMAppAuthSwift/Build/Products/Debug-iphonesimulator/GoogleAPIClient/GoogleAPIClient.framework/Headers/GTLUploadParameters.h"
+- "/Users/doki/Desktop/code11/GTMAppAuthSwift/Build/Products/Debug-iphonesimulator/GoogleAPIClient/GoogleAPIClient.framework/Headers/GTLDateTime.h"
+- "/Users/doki/Desktop/code11/GTMAppAuthSwift/Build/Products/Debug-iphonesimulator/GoogleAPIClient/GoogleAPIClient.framework/Headers/GTLUtilities.h"
+- "/Users/doki/Desktop/code11/GTMAppAuthSwift/Build/Products/Debug-iphonesimulator/GoogleAPIClient/GoogleAPIClient.framework/Headers/GTLObject.h"
+- "/Users/doki/Desktop/code11/GTMAppAuthSwift/Build/Products/Debug-iphonesimulator/GoogleAPIClient/GoogleAPIClient.framework/Headers/GTLQuery.h"
+- "/Users/doki/Desktop/code11/GTMAppAuthSwift/Build/Products/Debug-iphonesimulator/GoogleAPIClient/GoogleAPIClient.framework/Headers/GTLBatchQuery.h"
+- "/Users/doki/Desktop/code11/GTMAppAuthSwift/Build/Products/Debug-iphonesimulator/GoogleAPIClient/GoogleAPIClient.framework/Headers/GTLDefines.h"
+- "/Users/doki/Desktop/code11/GTMAppAuthSwift/Build/Products/Debug-iphonesimulator/GoogleAPIClient/GoogleAPIClient.framework/Headers/GoogleAPIClient-umbrella.h"
+- "/Users/doki/Desktop/code11/GTMAppAuthSwift/Build/Products/Debug-iphonesimulator/GoogleAPIClient/GoogleAPIClient.framework/Modules/module.modulemap"
+- "/Users/doki/Desktop/code11/GTMAppAuthSwift/Build/Products/Debug-iphonesimulator/AppAuth/AppAuth.framework/Headers/OIDAuthorizationUICoordinatorIOS.h"
+- "/Users/doki/Desktop/code11/GTMAppAuthSwift/Build/Products/Debug-iphonesimulator/AppAuth/AppAuth.framework/Headers/OIDURLQueryComponent.h"
+- "/Users/doki/Desktop/code11/GTMAppAuthSwift/Build/Products/Debug-iphonesimulator/AppAuth/AppAuth.framework/Headers/OIDTokenUtilities.h"
+- "/Users/doki/Desktop/code11/GTMAppAuthSwift/Build/Products/Debug-iphonesimulator/AppAuth/AppAuth.framework/Headers/OIDScopeUtilities.h"
+- "/Users/doki/Desktop/code11/GTMAppAuthSwift/Build/Products/Debug-iphonesimulator/AppAuth/AppAuth.framework/Headers/OIDFieldMapping.h"
+- "/Users/doki/Desktop/code11/GTMAppAuthSwift/Build/Products/Debug-iphonesimulator/AppAuth/AppAuth.framework/Headers/OIDDefines.h"
+- "/Users/doki/Desktop/code11/GTMAppAuthSwift/Build/Products/Debug-iphonesimulator/AppAuth/AppAuth.framework/Headers/OIDAuthorizationUICoordinator.h"
+- "/Users/doki/Desktop/code11/GTMAppAuthSwift/Build/Products/Debug-iphonesimulator/AppAuth/AppAuth.framework/Headers/OIDAuthorizationService+IOS.h"
+- "/Users/doki/Desktop/code11/GTMAppAuthSwift/Build/Products/Debug-iphonesimulator/AppAuth/AppAuth.framework/Headers/OIDAuthState+IOS.h"
+- "/Users/doki/Desktop/code11/GTMAppAuthSwift/Build/Products/Debug-iphonesimulator/AppAuth/AppAuth.framework/Headers/OIDTokenResponse.h"
+- "/Users/doki/Desktop/code11/GTMAppAuthSwift/Build/Products/Debug-iphonesimulator/AppAuth/AppAuth.framework/Headers/OIDTokenRequest.h"
+- "/Users/doki/Desktop/code11/GTMAppAuthSwift/Build/Products/Debug-iphonesimulator/AppAuth/AppAuth.framework/Headers/OIDServiceDiscovery.h"
+- "/Users/doki/Desktop/code11/GTMAppAuthSwift/Build/Products/Debug-iphonesimulator/AppAuth/AppAuth.framework/Headers/OIDServiceConfiguration.h"
+- "/Users/doki/Desktop/code11/GTMAppAuthSwift/Build/Products/Debug-iphonesimulator/AppAuth/AppAuth.framework/Headers/OIDGrantTypes.h"
+- "/Users/doki/Desktop/code11/GTMAppAuthSwift/Build/Products/Debug-iphonesimulator/AppAuth/AppAuth.framework/Headers/OIDErrorUtilities.h"
+- "/Users/doki/Desktop/code11/GTMAppAuthSwift/Build/Products/Debug-iphonesimulator/AppAuth/AppAuth.framework/Headers/OIDError.h"
+- "/Users/doki/Desktop/code11/GTMAppAuthSwift/Build/Products/Debug-iphonesimulator/AppAuth/AppAuth.framework/Headers/OIDAuthorizationService.h"
+- "/Users/doki/Desktop/code11/GTMAppAuthSwift/Build/Products/Debug-iphonesimulator/AppAuth/AppAuth.framework/Headers/OIDAuthorizationResponse.h"
+- "/Users/doki/Desktop/code11/GTMAppAuthSwift/Build/Products/Debug-iphonesimulator/AppAuth/AppAuth.framework/Headers/OIDScopes.h"
+- "/Users/doki/Desktop/code11/GTMAppAuthSwift/Build/Products/Debug-iphonesimulator/AppAuth/AppAuth.framework/Headers/OIDResponseTypes.h"
+- "/Users/doki/Desktop/code11/GTMAppAuthSwift/Build/Products/Debug-iphonesimulator/AppAuth/AppAuth.framework/Headers/OIDAuthorizationRequest.h"
+- "/Users/doki/Desktop/code11/GTMAppAuthSwift/Build/Products/Debug-iphonesimulator/AppAuth/AppAuth.framework/Headers/OIDAuthStateErrorDelegate.h"
+- "/Users/doki/Desktop/code11/GTMAppAuthSwift/Build/Products/Debug-iphonesimulator/AppAuth/AppAuth.framework/Headers/OIDAuthStateChangeDelegate.h"
+- "/Users/doki/Desktop/code11/GTMAppAuthSwift/Build/Products/Debug-iphonesimulator/AppAuth/AppAuth.framework/Headers/OIDAuthState.h"
+- "/Users/doki/Desktop/code11/GTMAppAuthSwift/Build/Products/Debug-iphonesimulator/AppAuth/AppAuth.framework/Headers/AppAuth.h"
+- "/Users/doki/Desktop/code11/GTMAppAuthSwift/Build/Products/Debug-iphonesimulator/AppAuth/AppAuth.framework/Headers/AppAuth-umbrella.h"
+- "/Users/doki/Desktop/code11/GTMAppAuthSwift/Build/Products/Debug-iphonesimulator/AppAuth/AppAuth.framework/Modules/module.modulemap"
+- "/Users/doki/Desktop/code11/GTMAppAuthSwift/Build/Products/Debug-iphonesimulator/GTMAppAuth/GTMAppAuth.framework/Headers/GTMKeychain.h"
+- "/Users/doki/Desktop/code11/GTMAppAuthSwift/Build/Products/Debug-iphonesimulator/GTMAppAuth/GTMAppAuth.framework/Headers/GTMOAuth2KeychainCompatibility.h"
+- "/Users/doki/Desktop/code11/GTMAppAuthSwift/Build/Products/Debug-iphonesimulator/GTMAppAuth/GTMAppAuth.framework/Headers/GTMAppAuthFetcherAuthorization+Keychain.h"
+- "/Users/doki/Desktop/code11/GTMAppAuthSwift/Build/Products/Debug-iphonesimulator/GTMAppAuth/GTMAppAuth.framework/Headers/GTMAppAuthFetcherAuthorization.h"
+- "/Users/doki/Desktop/code11/GTMAppAuthSwift/Build/Products/Debug-iphonesimulator/GTMAppAuth/GTMAppAuth.framework/Headers/GTMAppAuth.h"
+- "/Users/doki/Desktop/code11/GTMAppAuthSwift/Build/Products/Debug-iphonesimulator/GTMAppAuth/GTMAppAuth.framework/Headers/GTMAppAuth-umbrella.h"
+- "/Users/doki/Desktop/code11/GTMAppAuthSwift/Build/Products/Debug-iphonesimulator/GTMAppAuth/GTMAppAuth.framework/Modules/module.modulemap"
+interface-hash: "417e1bd589394bc12e2db335d36883d4"

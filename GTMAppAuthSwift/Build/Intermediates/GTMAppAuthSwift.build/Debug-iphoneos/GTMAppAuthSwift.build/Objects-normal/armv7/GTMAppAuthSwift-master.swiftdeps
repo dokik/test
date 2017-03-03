@@ -1,0 +1,6 @@
+version: "Apple Swift version 3.0.1 (swiftlang-800.0.58.6 clang-800.0.42.1)"
+options: "e352390a5f4a4130d7eccc731f5c0a47"
+build_time: [534841879, 448449000]
+inputs:
+  "/Users/doki/Desktop/code11/GTMAppAuthSwift/GTMAppAuthSwift/ViewController.swift": [533029704, 0]
+  "/Users/doki/Desktop/code11/GTMAppAuthSwift/GTMAppAuthSwift/AppDelegate.swift": [533020573, 0]
